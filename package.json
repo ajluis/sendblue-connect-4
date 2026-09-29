@@ -1,0 +1,17 @@
+{
+  "name": "sendblue-connect-4",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Low-latency Sendblue webhook bot for GamePigeon Four in a Row",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --env-file=.env src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "check": "node --check src/server.js"
+  },
+  "license": "MIT"
+}
